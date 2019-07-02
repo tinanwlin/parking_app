@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_01_051140) do
+ActiveRecord::Schema.define(version: 2019_07_02_044823) do
 
   create_table "places", force: :cascade do |t|
-    t.string "name"
+    t.text "note"
     t.decimal "latitude"
     t.decimal "longitude"
     t.datetime "created_at", null: false

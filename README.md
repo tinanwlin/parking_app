@@ -1,24 +1,25 @@
-# README
+# Free Parking Share - Server Side
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is currently in development. A free parking share application for the users who can easily know where to park for free in order to reduce their time for driving around to find a free parking spot. 
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* System dependencies
+**You will need to clone another repository to work with as a browser: [Click here to go to the repository](https://github.com/tinanwlin/parking_app_client/).**
 
-* Configuration
+## Developer Setup
 
-* Database creation
+- Install Ruby 2.5.1
+- Install Bundler to manager dependencies: `gem install bundler`
+- `bundle install` to install all required dependencies
+- `rails db:migrate` to make all database migrations
+- `rails s` to start the local server
 
-* Database initialization
+This application currently works with:
 
-* How to run the test suite
+- Ruby 2.5.1
+- Rails 5.2.3
+- sqlite3 database
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Learn more about [Installing Rails](https://guides.rubyonrails.org/v5.0/getting_started.html).
